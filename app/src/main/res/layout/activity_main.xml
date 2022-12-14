@@ -11,45 +11,49 @@
         android:id="@+id/turn_player_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
         android:fontFamily="@font/arbutus"
         android:text="@string/plug"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/main_container"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/main_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
         android:orientation="vertical"
         android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/turn_player_text">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout style="@style/Row">
 
             <Button
                 android:id="@+id/a1"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                tools:text="@string/x" />
 
             <View style="@style/VerticalLine" />
 
             <Button
                 android:id="@+id/a2"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                tools:text="@string/o" />
 
             <View style="@style/VerticalLine" />
 
             <Button
                 android:id="@+id/a3"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:text="@string/x" />
 
         </LinearLayout>
 
@@ -59,19 +63,22 @@
 
             <Button
                 android:id="@+id/b1"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:text="@string/x" />
 
             <View style="@style/VerticalLine" />
 
             <Button
                 android:id="@+id/b2"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:text="@string/o" />
 
             <View style="@style/VerticalLine" />
 
             <Button
                 android:id="@+id/b3"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:text="@string/x" />
 
         </LinearLayout>
 
@@ -81,19 +88,22 @@
 
             <Button
                 android:id="@+id/c1"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:text="@string/o" />
 
             <View style="@style/VerticalLine" />
 
             <Button
                 android:id="@+id/c2"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:text="@string/x" />
 
             <View style="@style/VerticalLine" />
 
             <Button
                 android:id="@+id/c3"
-                style="@style/Column" />
+                style="@style/Column"
+                tools:text="@string/o" />
 
         </LinearLayout>
 
@@ -103,7 +113,6 @@
         android:id="@+id/start_new_game_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:background="@color/button"
         android:fontFamily="@font/arbutus"
         android:paddingStart="16dp"
