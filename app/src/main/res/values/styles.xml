@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Column">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/main</item>
+        <item name="android:background">@color/yellow</item>
+        <item name="fontFamily">@font/arbutus</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="VerticalLine">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="HorizontalLine">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

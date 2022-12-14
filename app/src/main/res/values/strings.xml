@@ -33,6 +33,8 @@
     <string name="game_over">Game Over</string>
     <string name="you_lose_your_coins">You lose your coins</string>
     <string name="plug">plug</string>
+    <string name="x">X</string>
+    <string name="o">0</string>
 
 
 </resources>
