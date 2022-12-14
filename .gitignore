@@ -83,3 +83,22 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.cxx
+/.idea/
+/app/libs/
+/app/src/main/res/xml/backup_rules.xml
+/app/src/main/res/xml/data_extraction_rules.xml
+/app/src/main/ic_launcher-playstore.png
