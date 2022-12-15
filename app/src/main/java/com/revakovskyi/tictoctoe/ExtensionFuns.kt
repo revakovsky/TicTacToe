@@ -20,6 +20,7 @@ fun Activity.showResultsDialog(
         .setNegativeButton(R.string.exit) { _, _ ->
             negativeAction()
         }
+        .setCancelable(false)
         .create()
         .show()
 }
